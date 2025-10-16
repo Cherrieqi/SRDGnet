@@ -201,3 +201,4 @@ epoch_list = [(i + 1) for i in range(num_epoch)]
 draw_loss_curve(epoch_list, train_loss=train_loss_list, save_path=logs_path + "loss.png")
 print("training time:", time_end - time_start, 's')
 f.close()
+
